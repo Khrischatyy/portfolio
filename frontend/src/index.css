@@ -3,15 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
+  html, body, #root {
+    height: 100%;
     overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: auto;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+  }
+
+  .snap-container {
+    height: 100dvh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .snap-section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    min-height: 100dvh;
   }
 
   ::selection {

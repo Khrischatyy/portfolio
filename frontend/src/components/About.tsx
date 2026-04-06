@@ -37,11 +37,11 @@ const itemVariants = {
 
 export default function About() {
   return (
-    <section id="about" className="py-32 md:py-40 relative">
+    <section id="about" className="snap-section relative flex items-center">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/5 rounded-full blur-[200px] pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto px-6 md:px-12">
+      <div className="relative max-w-7xl mx-auto px-6 md:px-12 w-full">
         <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-start">
           {/* Text */}
           <motion.div

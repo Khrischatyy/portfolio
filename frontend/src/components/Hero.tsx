@@ -5,7 +5,7 @@ const titleWords = ["We", "craft", "digital", "products", "that", "matter"];
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
+    <section className="snap-section relative flex items-center justify-center overflow-hidden">
       {/* Gradient orbs */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-32 w-[500px] h-[500px] bg-accent-dark/20 rounded-full blur-[120px] animate-pulse" />

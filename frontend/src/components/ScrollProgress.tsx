@@ -1,7 +1,22 @@
+import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function ScrollProgress() {
-  const { scrollYProgress } = useScroll();
+  const [container, setContainer] = useState<HTMLElement | null>(null);
+
+  useEffect(() => {
+    setContainer(document.getElementById("scroll-root"));
+  }, []);
+
+  if (!container) return null;
+  return <ProgressBar container={container} />;
+}
+
+function ProgressBar({ container }: { container: HTMLElement }) {
+  const containerRef = useRef(container);
+  containerRef.current = container;
+
+  const { scrollYProgress } = useScroll({ container: containerRef as React.RefObject<HTMLElement> });
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
