@@ -79,7 +79,7 @@ export default function About() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-surface-border">
+            <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 pt-12 border-t border-surface-border">
               {[
                 { number: "50+", label: "Projects" },
                 { number: "5+", label: "Years" },

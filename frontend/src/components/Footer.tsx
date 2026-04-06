@@ -8,11 +8,11 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-surface-border py-8">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <Logo className="h-6 w-auto opacity-50" />
-          <p className="text-muted text-sm">
-            &copy; {new Date().getFullYear()} DNA Agency. All rights reserved.
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between gap-4">
+        <div className="flex items-center gap-3 min-w-0">
+          <Logo className="h-5 md:h-6 w-auto opacity-50 shrink-0 hidden sm:block" />
+          <p className="text-muted text-xs sm:text-sm">
+            &copy; {new Date().getFullYear()} DNA Agency
           </p>
         </div>
 

@@ -38,14 +38,14 @@ export default function Contact() {
           {/* Email */}
           <motion.a
             href="mailto:zharkovalexander1987@gmail.com"
-            className="group inline-flex items-center gap-3 text-xl md:text-2xl lg:text-3xl font-heading font-semibold hover:text-accent transition-colors duration-300"
+            className="group inline-flex items-center gap-2 sm:gap-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-heading font-semibold hover:text-accent transition-colors duration-300 max-w-full"
             whileHover={{ scale: 1.02 }}
           >
             <Mail
-              size={28}
-              className="text-accent group-hover:rotate-12 transition-transform duration-300"
+              size={24}
+              className="text-accent group-hover:rotate-12 transition-transform duration-300 shrink-0"
             />
-            <span className="relative">
+            <span className="relative truncate">
               zharkovalexander1987@gmail.com
               <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-accent group-hover:w-full transition-all duration-500" />
             </span>
