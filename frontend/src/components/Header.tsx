@@ -32,8 +32,13 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <a
           href="#"
-          className="hover:opacity-80 transition-opacity duration-300"
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-300"
         >
+          <img
+            src="/QS.svg"
+            alt="QS"
+            className="h-9 md:h-10 w-auto"
+          />
           <Logo className="h-12 md:h-14 w-auto" />
         </a>
 

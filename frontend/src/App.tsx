@@ -14,8 +14,8 @@ export default function App() {
       <Header />
       <main className="relative z-10">
         <Hero />
-        <Projects />
         <About />
+        <Projects />
         <Contact />
       </main>
     </div>
