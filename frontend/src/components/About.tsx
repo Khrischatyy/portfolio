@@ -62,7 +62,7 @@ export default function About() {
 
             <div className="space-y-5 text-secondary text-lg leading-relaxed">
               <p>
-                DNA Agency is a full-service digital studio specializing in
+                Questicity Soft is a full-service digital studio specializing in
                 high-performance web products. We handle every layer — from
                 architecture and APIs to interfaces with fluid animations.
               </p>

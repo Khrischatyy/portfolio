@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex items-center gap-3 min-w-0">
           <Logo className="h-5 md:h-6 w-auto opacity-50 shrink-0 hidden sm:block" />
           <p className="text-muted text-xs sm:text-sm">
-            &copy; {new Date().getFullYear()} DNA Agency
+            &copy; {new Date().getFullYear()} Questicity Soft
           </p>
         </div>
 

@@ -44,7 +44,7 @@ export default function Contact() {
 
             {/* Email */}
             <motion.a
-              href="mailto:zharkovalexander1987@gmail.com"
+              href="mailto:questicity@gmail.com"
               className="group inline-flex items-center gap-2 sm:gap-3 text-sm sm:text-lg md:text-2xl lg:text-3xl font-heading font-semibold hover:text-accent transition-colors duration-300 max-w-full"
               whileHover={{ scale: 1.02 }}
             >
@@ -53,7 +53,7 @@ export default function Contact() {
                 className="text-accent group-hover:rotate-12 transition-transform duration-300 shrink-0"
               />
               <span className="relative truncate">
-                zharkovalexander1987@gmail.com
+                questicity@gmail.com
                 <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-accent group-hover:w-full transition-all duration-500" />
               </span>
             </motion.a>
@@ -82,9 +82,9 @@ export default function Contact() {
       <footer className="relative border-t border-surface-border py-6">
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
-            <Logo className="h-5 md:h-6 w-auto opacity-50 shrink-0 hidden sm:block" />
+            <Logo className="h-8 md:h-10 w-auto opacity-50 shrink-0 hidden sm:block" />
             <p className="text-muted text-xs sm:text-sm">
-              &copy; {new Date().getFullYear()} DNA Agency
+              &copy; {new Date().getFullYear()} Questicity Soft
             </p>
           </div>
           <button

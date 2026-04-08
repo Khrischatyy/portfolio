@@ -34,7 +34,7 @@ export default function Header() {
           href="#"
           className="hover:opacity-80 transition-opacity duration-300"
         >
-          <Logo className="h-8 w-auto" />
+          <Logo className="h-12 md:h-14 w-auto" />
         </a>
 
         {/* Desktop nav */}
